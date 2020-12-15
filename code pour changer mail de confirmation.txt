@@ -1,0 +1,5 @@
+<!-- DEBUG {{ checkout.shipping_method.title }} has been used -->
+{% if checkout.shipping_method.title == 'FedEx Ground' %}
+<br/>
+Your delivery will take 7-10 business days.
+{% endif %}
